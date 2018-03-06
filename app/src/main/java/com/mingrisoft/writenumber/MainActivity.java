@@ -17,7 +17,7 @@ public class MainActivity extends Activity {  //MainActivity类头部
     @Override
     protected void onCreate(Bundle savedInstanceState) {   // onCreate()方法头部
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);//测试
         //获取布局文件中控制背景音乐按钮
         music_btn = (Button) findViewById(R.id.btn_music);
         PlayMusic();     //调用播放音乐的方法
